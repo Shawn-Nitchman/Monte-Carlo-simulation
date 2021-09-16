@@ -8,6 +8,9 @@ public:
 	Deck();
 	~Deck();
 
+	void Print();
+	void Shuffle();
+
 private:
-	std::vector<Card*> deck; //
+	std::vector<Card*> deck;
 };

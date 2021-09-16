@@ -14,6 +14,8 @@ public:
 
 	virtual int GetFaceValue();
 
+	void Print();
+
 private:
 	Ranks Rank;
 	Suits Suit;
