@@ -1,7 +1,10 @@
 #include <iostream>
+#include "Deck.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Deck deck;
+    system("pause");
+    return 0;
 }
 
