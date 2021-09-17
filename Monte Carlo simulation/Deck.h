@@ -1,5 +1,4 @@
 #pragma once
-#include <deque>
 #include <vector>
 #include <string>
 
@@ -11,8 +10,6 @@ public:
 
 	void Print();
 	void Shuffle();
-
-	void  PopCard();
 
 private:
 	std::vector<std::string> deck;

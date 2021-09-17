@@ -141,9 +141,11 @@
   <ItemGroup>
     <ClCompile Include="Deck.cpp" />
     <ClCompile Include="Monte Carlo simulation.cpp" />
+    <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Deck.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

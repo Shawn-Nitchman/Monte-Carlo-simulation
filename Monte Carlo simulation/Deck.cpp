@@ -26,8 +26,3 @@ void Deck::Shuffle()
 	auto rng = std::default_random_engine{};
 	std::shuffle(std::begin(deck), std::end(deck), rng);
 }
-
-
-void Deck::PopCard()
-{
-}
