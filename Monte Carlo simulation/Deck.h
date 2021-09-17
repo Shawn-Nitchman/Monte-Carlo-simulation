@@ -1,6 +1,7 @@
 #pragma once
 #include <deque>
-#include "Card.h"
+#include <vector>
+#include <string>
 
 class Deck
 {
@@ -11,9 +12,8 @@ public:
 	void Print();
 	void Shuffle();
 
-	Card* TopCard();
 	void  PopCard();
 
 private:
-	std::deque<Card*> deck;
+	std::vector<std::string> deck;
 };
