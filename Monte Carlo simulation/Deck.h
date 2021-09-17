@@ -1,5 +1,5 @@
 #pragma once
-#include <vector>
+#include <deque>
 #include "Card.h"
 
 class Deck
@@ -11,6 +11,9 @@ public:
 	void Print();
 	void Shuffle();
 
+	Card* TopCard();
+	void  PopCard();
+
 private:
-	std::vector<Card*> deck;
+	std::deque<Card*> deck;
 };

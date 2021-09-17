@@ -22,15 +22,23 @@ Card::Suits Card::GetSuit()
 	return Suit;
 }
 
-int Card::GetFaceValue() 
+int Card::GetBridgeValue() 
 {
-	if (Rank <= TEN)
-		return static_cast<int>(Rank);
+	switch (Rank)
+	{
+	case Card::JACK:
+		return 1;
+	case Card::QUEEN:
+		return 2;
+	case Card::KING:
+		return 3;
+	case Card::ACE:
+		return 4;
+	default:
+		return 0;
+	}
 
-	if (Rank <= KING)
-		return 10;
-
-	return 11;
+	return 0;
 }
 
 void Card::Print()

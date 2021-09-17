@@ -12,7 +12,7 @@ public:
 	Ranks GetRank();
 	Suits GetSuit();
 
-	virtual int GetFaceValue();
+	virtual int GetBridgeValue();
 
 	void Print();
 
